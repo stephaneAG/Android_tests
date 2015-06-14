@@ -1,0 +1,32 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tefservicewidget"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <receiver 
+        android:name=".TefServiceWidget" 
+        android:label="TefServiceWidget"
+        android:exported="true"
+        >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+  
+                <action android:name="com.example.tefservicewidget.TefServiceWidget.ACTION_WIDGET_START_SERVICE" />
+                <action android:name="com.example.tefservicewidget.TefServiceWidget.ACTION_WIDGET_STOP_SERVICE" />
+                <action android:name="com.example.tefservicewidget.TefServiceWidget.ACTION_WIDGET_START_SERVICE_ON_BOOT" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/tef_service_widget_provider" />
+        </receiver>
+        
+    </application>
+
+</manifest>

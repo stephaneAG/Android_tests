@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+/Users/stephaneadamgarnier/dev__Android/eclipse_AndroidWorkspace/.metadata/.plugins/org.eclipse.jdt.core
+668129167.index
+784746252.index
+871692497.index
+857604041.index
+569881080.index
+2576523568.index
+622156908.index
+2201575021.index
+3680939099.index

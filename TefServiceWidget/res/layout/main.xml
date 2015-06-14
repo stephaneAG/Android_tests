@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="300dp"
+    android:layout_height="60dp"
+    android:layout_weight="4"
+    android:orientation="horizontal"
+    android:background="@android:color/black" >
+
+    <LinearLayout
+    android:id="@+id/LinearLayoutVertical01"
+    android:layout_weight="1"
+    android:layout_width="0dip"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:background="@color/tef_light_grey"
+    android:layout_marginRight="0.5dp" >
+    	
+        <Button
+        android:id="@+id/sync_button"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="6pt"
+        android:textColor="@android:color/white"
+        android:background="@color/tef_dark_grey"
+        android:text="Start" />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+    android:id="@+id/LinearLayoutVertical02"
+    android:layout_weight="1"
+    android:layout_width="0dip"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:background="@color/tef_light_grey"
+    android:layout_marginRight="0.5dp" >
+    	
+        <Button
+        android:id="@+id/widget_Button2"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="6pt"
+        android:textColor="@android:color/white"
+        android:background="@color/tef_dark_grey"
+        android:text="Stop" />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+    android:id="@+id/LinearLayoutVertical03"
+    android:layout_weight="1"
+    android:layout_width="0dip"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:background="@color/tef_light_grey" 
+    android:layout_marginRight="0.5dp" >
+    	
+        <Button
+        android:id="@+id/widget_Button3"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="6pt"
+        android:textColor="@android:color/white"
+        android:background="@color/tef_dark_grey"
+        android:text="status" />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+    android:id="@+id/LinearLayoutVertical04"
+    android:layout_weight="1"
+    android:layout_width="0dip"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:background="@color/tef_activated_blue" >
+    	
+        <Button
+        android:id="@+id/widget_Button4"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="6pt"
+        android:textColor="@android:color/white"
+        android:background="@color/tef_dark_grey"
+        android:text="autostart" />
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

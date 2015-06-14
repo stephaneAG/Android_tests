@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TefServices</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Nashub</string>
+    <string name="startBtn">Start Service</string>
+    <string name="stopBtn">Stop Service</string>
+
+</resources>

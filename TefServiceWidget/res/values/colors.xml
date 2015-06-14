@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tef_light_grey">#7C7C7C</color>
+    <color name="tef_dark_grey">#191E23</color>
+    <color name="tef_activated_blue">#67C9E6</color>
+</resources>
